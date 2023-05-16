@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{BEE63E63-11E3-429C-B55F-0BB07EC63953}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{1C21CE79-98DC-4241-8FF2-6D0C00E12586}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{AD66A2D7-F9D8-46A1-AFE8-198244FFC097}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{0D8B7962-96A5-456E-A7E0-4B7764FDF4F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{53A39B22-A5F1-4FE0-ACB0-E2903DEDD1FD}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C8990EDB-F516-40CA-A7E8-871E2E0E1B92}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{4A5E24B0-E03D-46D5-B2E2-A82028C0A1CC}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RavikScriptTest", "RavikScriptTest", "{ECA8DA3C-558E-41BF-B922-5B4FB668C8E8}"
+	ProjectSection(SolutionItems) = preProject
+		RavikScriptTest.xml = RavikScriptTest.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{918ADCD0-D99D-4AEC-9CFD-9F2705C9B681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavikScriptTest_1", "RavikScriptTest_1\RavikScriptTest_1.csproj", "{BCFA721C-8BED-44CA-885F-1D49A85E5AE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCFA721C-8BED-44CA-885F-1D49A85E5AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFA721C-8BED-44CA-885F-1D49A85E5AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFA721C-8BED-44CA-885F-1D49A85E5AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFA721C-8BED-44CA-885F-1D49A85E5AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53A39B22-A5F1-4FE0-ACB0-E2903DEDD1FD} = {0D8B7962-96A5-456E-A7E0-4B7764FDF4F2}
+		{4A5E24B0-E03D-46D5-B2E2-A82028C0A1CC} = {BEE63E63-11E3-429C-B55F-0BB07EC63953}
+		{ECA8DA3C-558E-41BF-B922-5B4FB668C8E8} = {1C21CE79-98DC-4241-8FF2-6D0C00E12586}
+		{918ADCD0-D99D-4AEC-9CFD-9F2705C9B681} = {ECA8DA3C-558E-41BF-B922-5B4FB668C8E8}
+		{BCFA721C-8BED-44CA-885F-1D49A85E5AE1} = {918ADCD0-D99D-4AEC-9CFD-9F2705C9B681}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E83305F-E5AF-43C0-97CD-F4ED39808C93}
+	EndGlobalSection
+EndGlobal
